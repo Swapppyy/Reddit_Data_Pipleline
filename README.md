@@ -52,9 +52,9 @@ The pipeline is designed to:
    ```bash
     pip install -r requirements.txt
    ```
-5. Rename the configuration file to config.conf and update the credentials for your system.
+5. Rename the configuration file to config.conf in the config folder and update the credentials for your system.
    ```bash
-    mv config/config.conf.example config/config.conf
+    git mv config.conf.example config.conf
    ```
 6. Starting the containers
    ```bash
